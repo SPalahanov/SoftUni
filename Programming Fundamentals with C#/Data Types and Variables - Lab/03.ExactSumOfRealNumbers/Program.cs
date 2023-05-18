@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            int countOfNumbers = int.Parse(Console.ReadLine());
+            int countOfNumber = int.Parse(Console.ReadLine());
             decimal sum = 0;
 
-            for (int i = 1; i <= countOfNumbers; i++)
+            for (int i = 1; i <= countOfNumber; i++)
             {
                 decimal numbers = decimal.Parse(Console.ReadLine());
                 sum = sum + numbers;
