@@ -6,38 +6,23 @@ namespace _05.SpecialNumbers
     {
         static void Main(string[] args)
         {
-            int number = int.Parse(Console.ReadLine());
+            int countOfNumbers = int.Parse(Console.ReadLine());
             int sum = 0;
 
-            for (int i = 1; i <= number; i++)
+            for (int i = 1; i <= countOfNumbers; i++)
             {
                 int sumOfDigits = 0;
                 int digits = i;
-                while (digits > 0)
+                while (digits != 0)
                 {
                     sumOfDigits += digits % 10;
                     digits = digits / 10;
                 }
 
-                if (i / 5 == 0 || i / 7 == 0 || i / 11 == 0)
-                {
-                    Console.WriteLine($"{sumOfDigits} ->True");
-                }
-                else
-                {
-                    Console.WriteLine($"{sumOfDigits} ->False");
-                }
+                bool isSpecial = sumOfDigits == 5 || sumOfDigits == 7 || sumOfDigits == 11;
 
+                Console.WriteLine($"{i} -> {isSpecial}");
 
-                //sum = sumOfDigits / 5;
-                //if (sum == 0)
-                //{
-                //    Console.WriteLine($"{sumOfDigits} ->True");
-                //}
-                //else
-                //{
-                //    Console.WriteLine($"{sumOfDigits} ->False");
-                //}
             }
         }
     }

@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int pounds = int.Parse(Console.ReadLine());
-            float dollars = pounds * 1.31f;
+            double pounds = double.Parse(Console.ReadLine());
+            double dollars = pounds * 1.31;
 
             Console.WriteLine($"{dollars:f3}");
         }

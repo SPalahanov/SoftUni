@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            char first = char.Parse(Console.ReadLine());
+            char second = char.Parse(Console.ReadLine());
+            char third = char.Parse(Console.ReadLine());
+            string result = String.Join(second, first, third); 
+
+            Console.WriteLine(result);
         }
     }
 }
