@@ -2,13 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 
-/*
-
-After the N lines, you will receive a single line with one of 2 commands: "fragile" or "flamable". If the command
-is "fragile", print all cars, whose Cargo Type is "fragile" with cargo with weight < 1000. If the command is
-"flamable", print all of the cars whose Cargo Type is "flamable" and have Engine Power > 250. The cars should
-be printed in order of appearing in the input.
- */
 namespace _04._Raw_Data_
 {
     class Car

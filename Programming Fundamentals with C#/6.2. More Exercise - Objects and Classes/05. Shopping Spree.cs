@@ -6,10 +6,10 @@ namespace _05._Shopping_Spree
     class Person
     {
         public string Name { get; set; }
-        public decimal Money { get; set; }
+        public double Money { get; set; }
         public List<string> Bag { get; set; }
 
-        public Person(string name, decimal money)
+        public Person(string name, double money)
         {
             Name = name;
             Money = money;
@@ -22,6 +22,7 @@ namespace _05._Shopping_Spree
             {
                 Money -= product.Cost;
                 Bag.Add(product.ProductName);
+                Console.WriteLine($"{Name} bought {product.ProductName}");
             }
             else
             {
@@ -32,7 +33,7 @@ namespace _05._Shopping_Spree
 
     class Product
     {
-        public Product(string productName, decimal cost)
+        public Product(string productName, double cost)
         {
             ProductName = productName;
             Cost = cost;
@@ -40,9 +41,9 @@ namespace _05._Shopping_Spree
 
         public string ProductName { get; set; }
 
-        public decimal Cost { get; set; }
+        public double Cost { get; set; }
     }
-    
+
     internal class Program
     {
         static void Main(string[] args)
@@ -55,7 +56,7 @@ namespace _05._Shopping_Spree
                 string[] text1 = input1[i].Split("=");
 
                 string personName = text1[0];
-                decimal money = decimal.Parse(text1[1]);
+                double money = double.Parse(text1[1]);
 
                 Person person = new Person(personName, money);
                 persons.Add(person);
@@ -69,7 +70,7 @@ namespace _05._Shopping_Spree
                 string[] text2 = input2[i].Split("=");
 
                 string productName = text2[0];
-                decimal cost = decimal.Parse(text2[1]);
+                double cost = double.Parse(text2[1]);
 
                 Product product = new Product(productName, cost);
                 products.Add(product);
@@ -90,7 +91,7 @@ namespace _05._Shopping_Spree
                 person.BuyProduct(product);
             }
 
-            foreach(Person person in persons)
+            foreach (Person person in persons)
             {
                 Console.Write($"{person.Name} - ");
                 if (person.Bag.Count > 0)
