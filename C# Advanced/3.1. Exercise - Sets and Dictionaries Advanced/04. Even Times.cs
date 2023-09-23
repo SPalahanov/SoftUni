@@ -4,25 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Dictionary<int, int> numbersCounts = new Dictionary<int, int>();
+            int n = int.Parse(Console.ReadLine());
 
-            int count = int.Parse(Console.ReadLine());
+            HashSet<string> userNames = new();
 
-            for (int i = 0; i < count; i++)
+            for (int i = 0; i < n; i++)
             {
-                int number = int.Parse(Console.ReadLine());
+                string name = Console.ReadLine();
 
-                if (!numbersCounts.ContainsKey(number))
-                {
-                    numbersCounts.Add(number, 0);
-                }
-
-                numbersCounts[number]++;
+                userNames.Add(name);
             }
 
-            int result = numbersCounts.Single(x => x.Value % 2 == 0).Key;
-
-            Console.WriteLine(result);
+            foreach (var userName in userNames)
+            {
+                Console.WriteLine(userName);
+            }
         }
     }
 }
