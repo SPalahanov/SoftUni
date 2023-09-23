@@ -63,7 +63,7 @@
                         Console.WriteLine($"! {user}");
                     }
                 }
-            }u
+            }
         }
     }
 }
