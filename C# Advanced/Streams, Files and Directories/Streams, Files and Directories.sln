@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Word Count", "03. Word 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Merge Text Files", "04. Merge Text Files\04. Merge Text Files.csproj", "{8CBCF522-CD6E-470D-806B-C21824F71755}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Extract Special Bytes", "05. Extract Special Bytes\05. Extract Special Bytes.csproj", "{7CAA8338-2382-47B2-BD2C-DF663D5E5EEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8CBCF522-CD6E-470D-806B-C21824F71755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CBCF522-CD6E-470D-806B-C21824F71755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CBCF522-CD6E-470D-806B-C21824F71755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAA8338-2382-47B2-BD2C-DF663D5E5EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAA8338-2382-47B2-BD2C-DF663D5E5EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAA8338-2382-47B2-BD2C-DF663D5E5EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAA8338-2382-47B2-BD2C-DF663D5E5EEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
