@@ -19,10 +19,36 @@
 
         public static void SplitBinaryFile(string sourceFilePath, string partOneFilePath, string partTwoFilePath)
         {
+            byte[] binaryData = File.ReadAllBytes(sourceFilePath);
+
+            int fileSize = binaryData.Length;
+            int partOneSize = fileSize / 2;
+            int partTwoSize = fileSize - partOneSize;
+
+            using (FileStream partOneStream = new FileStream(partOneFilePath, FileMode.Create))
+            {
+                partOneStream.Write(binaryData, 0, partOneSize);
+            }
+
+            using (FileStream partTwoStream = new FileStream(partTwoFilePath, FileMode.Create))
+            {
+                partTwoStream.Write(binaryData, partOneSize, partTwoSize);
+            }
         }
 
         public static void MergeBinaryFiles(string partOneFilePath, string partTwoFilePath, string joinedFilePath)
         {
+            byte[] partOneData = File.ReadAllBytes(partOneFilePath);
+
+            byte[] partTwoData = File.ReadAllBytes(partTwoFilePath);
+
+            byte[] mergedData = new byte[partOneData.Length + partTwoData.Length];
+
+            Buffer.BlockCopy(partOneData, 0, mergedData, 0, partOneData.Length);
+
+            Buffer.BlockCopy(partTwoData, 0, mergedData, partOneData.Length, partTwoData.Length);
+
+            File.WriteAllBytes(joinedFilePath, mergedData);
         }
     }
 }
