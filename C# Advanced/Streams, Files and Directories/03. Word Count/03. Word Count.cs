@@ -46,6 +46,7 @@
                     currentLine = reader.ReadLine();
                 }
             }
+
             using (StreamWriter writer = new StreamWriter(outputFilePath))
             {
                 foreach (var item in wordAndFrequency.OrderByDescending(x => x.Value))
