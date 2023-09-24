@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Extract Special Bytes",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Folder Size", "07. Folder Size\07. Folder Size.csproj", "{2057C679-6246-4979-95E7-E429CBA5BF50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Split, Merge Binary Files", "06. Split, Merge Binary Files\06. Split, Merge Binary Files.csproj", "{C0861BE4-C0E1-4A2A-BC36-FC929753FD46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{2057C679-6246-4979-95E7-E429CBA5BF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2057C679-6246-4979-95E7-E429CBA5BF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2057C679-6246-4979-95E7-E429CBA5BF50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0861BE4-C0E1-4A2A-BC36-FC929753FD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0861BE4-C0E1-4A2A-BC36-FC929753FD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0861BE4-C0E1-4A2A-BC36-FC929753FD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0861BE4-C0E1-4A2A-BC36-FC929753FD46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
