@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{D31893C8-D11C-4875-A819-B2EFF5A40D10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarExample", "CarExample\CarExample.csproj", "{9103125A-C6A5-4CF6-A038-D8C59E36C2D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExplicitInterfaces", "ExplicitInterfaces\ExplicitInterfaces.csproj", "{C1293841-C684-483B-9287-F0C81838ABFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceInheritance", "InterfaceInheritance\InterfaceInheritance.csproj", "{3B251358-6C04-423C-9442-3C32666B39A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{A1FC2E96-2D4C-4D8E-A012-946C199AE88E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantExample", "RestaurantExample\RestaurantExample.csproj", "{0776AADC-7D90-4312-9656-6D0809CE9793}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReturningInterfaces", "ReturningInterfaces\ReturningInterfaces.csproj", "{F87681E7-45E6-46D3-9325-F1FCB1D1DEA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D31893C8-D11C-4875-A819-B2EFF5A40D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31893C8-D11C-4875-A819-B2EFF5A40D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31893C8-D11C-4875-A819-B2EFF5A40D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31893C8-D11C-4875-A819-B2EFF5A40D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9103125A-C6A5-4CF6-A038-D8C59E36C2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9103125A-C6A5-4CF6-A038-D8C59E36C2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9103125A-C6A5-4CF6-A038-D8C59E36C2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9103125A-C6A5-4CF6-A038-D8C59E36C2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1293841-C684-483B-9287-F0C81838ABFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1293841-C684-483B-9287-F0C81838ABFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1293841-C684-483B-9287-F0C81838ABFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1293841-C684-483B-9287-F0C81838ABFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B251358-6C04-423C-9442-3C32666B39A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B251358-6C04-423C-9442-3C32666B39A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B251358-6C04-423C-9442-3C32666B39A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B251358-6C04-423C-9442-3C32666B39A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FC2E96-2D4C-4D8E-A012-946C199AE88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FC2E96-2D4C-4D8E-A012-946C199AE88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FC2E96-2D4C-4D8E-A012-946C199AE88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FC2E96-2D4C-4D8E-A012-946C199AE88E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0776AADC-7D90-4312-9656-6D0809CE9793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0776AADC-7D90-4312-9656-6D0809CE9793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0776AADC-7D90-4312-9656-6D0809CE9793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0776AADC-7D90-4312-9656-6D0809CE9793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87681E7-45E6-46D3-9325-F1FCB1D1DEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87681E7-45E6-46D3-9325-F1FCB1D1DEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87681E7-45E6-46D3-9325-F1FCB1D1DEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87681E7-45E6-46D3-9325-F1FCB1D1DEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF22F632-0CDE-476B-889E-6386814783E4}
+	EndGlobalSection
+EndGlobal
