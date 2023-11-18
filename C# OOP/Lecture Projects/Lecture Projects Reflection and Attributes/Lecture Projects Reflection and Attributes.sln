@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectConstructor", "Refle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{58691F8C-5387-4E0A-BA1B-28FDEAA19095}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalMethods", "CriticalMethods\CriticalMethods.csproj", "{DE052F31-AED3-42C5-8607-0B8589563E53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{58691F8C-5387-4E0A-BA1B-28FDEAA19095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58691F8C-5387-4E0A-BA1B-28FDEAA19095}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58691F8C-5387-4E0A-BA1B-28FDEAA19095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE052F31-AED3-42C5-8607-0B8589563E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE052F31-AED3-42C5-8607-0B8589563E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE052F31-AED3-42C5-8607-0B8589563E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE052F31-AED3-42C5-8607-0B8589563E53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
