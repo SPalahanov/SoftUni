@@ -1,0 +1,92 @@
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 100px 400px;
+}
+
+body > header {
+    border-bottom: 4px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p {
+    color: #000;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header p, header nav {
+    display: inline-block;
+}
+
+main {
+    display: inline-block;
+    display: flex;
+    width: 700px;
+}
+
+
+
+header ul {
+    padding-top: 4em;
+}
+
+header li {
+    display: inline;
+}
+
+header nav a {
+    color: #090;
+    text-decoration: none;
+    padding: 0.4em;
+    font-size: 1.3em;
+}
+
+img:nth-child(1){
+    float: right; 
+    margin: 20px;
+    border: 3px solid #000;
+    padding: 10px;
+}
+
+section aside {
+    width: 300px;
+    float: right;
+    font-style: italic;
+    color: #000000c5;
+    border-left: 4px solid #000000c5;
+    margin-left: 1em;
+}
+
+section aside p {
+    margin-left: 1em;
+}
+
+section aside p:nth-child(2) {
+    text-align: end;
+}
+
+.first {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #000;
+    padding: 10px;
+}
+
+div {
+    float: right;
+}
+
+div a {
+    color: #090;
+    text-decoration: none;
+}
+
+main, aside {
+    display: inline-block;
+}
+
+div aside {
+    display: block
+}

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 0.4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1em 0.8em rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+}
+
+.card::before {
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    box-shadow: 0 0 5em 0.8em rgba(0, 0, 0, 0.8) inset;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+.card:hover::before {
+    opacity: 0;
+}
+
+.card svg {
+    display: block;
+    width: 2em;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    fill: #fff;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in;
+}
+
+.card svg:hover {
+    fill: #ca9a4c;
+    transition: fill 0.3s ease-in;
+}
+
+.card:hover svg {
+    opacity: 1;
+}
+
+.viewport {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(90deg, rgba(39,34,195,1) 0%, rgba(34,193,195,1) 100%);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(90deg, rgba(255,2,0,1) 0%, rgba(255,229,0,1) 100%);
+}

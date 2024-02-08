@@ -1,0 +1,17 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    
+}
+
+ul li a {
+    
+    margin: 30px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #3498db;
+  }

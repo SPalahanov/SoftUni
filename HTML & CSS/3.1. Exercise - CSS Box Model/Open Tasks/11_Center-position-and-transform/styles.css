@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.7);
+}
+
+div:nth-child(2) {
+    padding: 30px 30px 30px 30px;
+}
+
+img {
+    max-width: 400px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card h3 {
+    font-family: Georgia, serif;
+    font: 1em/1.2;
+}
+
+.card a {
+    background-color: rgb(0, 153, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    margin-left: 260px;
+    color: #fff;
+}
+
+.card a:hover {
+    color: black;
+}
