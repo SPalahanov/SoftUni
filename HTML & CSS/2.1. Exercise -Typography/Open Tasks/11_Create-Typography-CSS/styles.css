@@ -1,0 +1,41 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 1350px;
+    padding: 100px 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+blockquote {
+    border-left: 4px solid rgb(221,221,221);
+    font-style: italic;
+    padding-left: 1.5em;
+}
+
+.author {
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid darkgray;
+    padding: 5px;
+}
+
+tr th {
+    background-color: darkgray;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
