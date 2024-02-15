@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Working with Forms</h1>
+
+
+    <h2>Search by Google</h2>
+
+    <form action="Https://www.google.com/search" method="get">
+        <label for="search-field">Search for:</label>
+        <input type="text" id="search-field" name="q">
+        <input type="submit" value="Search">
+    </form>
+
+
+    <h2>Radio buttons</h2>
+
+    <form action="#" method="get">
+        <p>Pick your poison</p>
+        <input type="radio" name="poison" value="option1" id="poison-option1">
+        <label for="poison-option1">Option 1</label>
+        <input type="radio" name="poison" value="option2" id="poison-option2">
+        <label for="poison-option2">Option 2</label>
+        <input type="radio" name="poison" value="option3" id="poison-option3">
+        <label for="poison-option3">Option 3</label>
+        <input type="radio" name="poison" value="option4" id="poison-option4">
+        <label for="poison-option4">Option 4</label>
+
+        <p>
+            <input type="submit" value="Lets go!">
+        </p>
+    </form>
+
+
+    <h2>Checkboxes</h2>
+
+    <form action="#" method="get">
+        <fieldset>
+            <legend>My first set of form elements</legend>
+            <p>Pick your poison</p>
+            <input type="checkbox" value="poison2option1" id="poison2-option1">
+            <label for="poison2-option1">Option 1</label>
+            
+            <input type="checkbox" value="poison2option2" id="poison2-option2">
+            <label for="poison2-option2">Option 2</label>
+            
+            <input type="checkbox" value="poison2option3" id="poison2-option3">
+            <label for="poison2-option3">Option 3</label>
+            
+            <input type="checkbox" value="poison2option4" id="poison2-option4">
+            <label for="poison2-option4">Option 4</label>
+
+            <p>
+                <select name="city" id="citySelect">
+                    <option>Please pick a city</option>
+                    <option value="sofia" selected>Sofia</option>
+                    <option value="plovdiv">Plovdiv</option>
+                </select>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>My second set</legend>
+            <p>
+                <input type="email" required>
+            </p>
+
+            <p>
+                <input type="range" id="volume" name="volume" min="0" max="11">
+            </p>
+
+            <label for="tempB">Choose a comfortable temperature:</label><br />
+            <input type="range" id="tempB" name="temp" list="values" />
+
+            <datalist id="values">
+                <option value="0" label="very cold!"></option>
+                <option value="25" label="cool"></option>
+                <option value="50" label="medium"></option>
+                <option value="75" label="getting warm!"></option>
+                <option value="100" label="hot!"></option>
+            </datalist>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Lets go!">
+        </p>
+    </form>
+
+    <form action="#">
+        <input type="text" name="username" id="login-username" placeholder="Username" required>
+        <input type="password" name="password" id="login-password" placeholder="Password" required>
+
+        <input type="submit" value="Login">
+    </form>
+
+
+
+</body>
+</html>
