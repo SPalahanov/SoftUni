@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            
+        }
+
+        header {
+            background: #7becec;
+            display: flex;
+            padding: 2em 1em;
+            align-items: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            flex-grow: 1;
+            gap: 1em;
+        }
+
+        .tasks {
+            
+            background: #7becec;
+            padding: 2em 1em;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            flex: 1 0 auto;
+        }
+
+        .main-nav {
+            background: #7becec;
+            padding: 1em 3em 0 1em;
+        }
+
+        .tasks ul {
+            padding-left: 2.2em;
+            
+        }
+
+        .tasks ul a {
+            color: #000;            
+        }
+
+        footer {
+            background: #7becec;
+            padding:0.5em 1em;
+        }
+
+        nav li {
+            list-style-type: none;
+        }
+
+        li a {
+            text-decoration: none;
+        }
+
+        @media (max-width: 500px) {
+            main {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome</h1>
+    </header>
+
+    <main>
+        <div class="main-nav">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Tasks</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="tasks">
+            <h2>Tasks: 6</h2>
+            <ul>
+                <li><a href="#">Open: 3</a></li>
+                <li><a href="#">In progress: 1</a></li>
+                <li><a href="#">Done: 2</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>@ 2021 - Task Board</p>
+    </footer>
+</body>
+</html>
