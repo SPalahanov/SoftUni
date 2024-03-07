@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 'Inter';
+}
+
+body {
+    padding: 2em;
+}
+
+img {
+    display: block;
+    width: 360px;
+    height: auto;
+    box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.9);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    max-width: 1060px;
+    margin: 0 auto;
+    background: #85DCFF;
+    justify-content: space-between;
+}
+
+main,
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 30px 60px 30px;
+}
+
+main .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+main .text h2 {
+    font-size: 43px;
+    font-weight: bold;
+    width: 400px;
+    padding-bottom: 0.5em;
+    line-height: normal;
+}
+
+main .buttons p {
+    padding-top: 2.7em;
+}
+
+
+main .buttons a {
+    text-decoration: none;
+    color: #000;
+    padding: 1em 2em;
+    
+    border-radius: 5px;
+}
+
+main .start a {
+    background: #42AA59;
+    border: 1px solid #000;
+}
+
+main .start a:hover {
+    background: #000;
+    color: #fff;
+}
+
+main .more a {
+    background: #fff;
+}

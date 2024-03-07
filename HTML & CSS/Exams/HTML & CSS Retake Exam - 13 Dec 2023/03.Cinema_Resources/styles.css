@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 'Ubuntu';
+}
+
+body {
+    background: #56DBB1;
+}
+
+header {
+    padding: 2em;
+}
+
+img {
+    width: 100%;
+    height: 625px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+}
+
+header .header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    
+}
+
+header .header-title h1 {
+    font-size: 50px;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    border-right: 3px solid #dbdbdb;
+    padding-right: 0.4em;
+}
+
+header .header-title h1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+header .header-title .text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5em;
+}
+
+header .header-title .text p {
+    height: 50px;
+    display: flex;
+    align-items: end;
+}
+
+header .header-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header .header-nav li {
+    background: #ECECEC;
+    border: 1.5px solid #fff;
+    padding: 20px 25px;
+}
+
+header .header-nav li:first-child {
+    background: #56DBB1;
+}
+
+header .header-nav a {
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    color: #696969;
+}
+
+header .header-nav .one {
+    color: #000;
+}
+
+.first-section{
+    background: #56DBB1;
+}
+
+.first-section .container{
+    width: 1500px;
+}
+
+.first-section .container {
+    padding: 68px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 140px 0;
+    gap: 2em;
+}
+
+.container h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container h2,
+.container p {
+    text-align: center;
+}
+
+.first-section .container p {
+    text-align: center;
+
+}
+
+.second-section,
+.fourth-section {
+    background: #353434;
+}
+
+.second-section .icon {
+    width: 110px;
+    height: 110px;
+    background-color: #56DBB1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-section .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section .content h2 {
+    color: #fff;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.content p {
+    font-size: 16px;
+    color: #5B5956;
+}
+
+.second-section .content p {
+    border-top: 2px solid #fff;
+    padding-top: 1em;
+    
+}
+
+.second-section svg {
+    width: 65px;
+    height: 65px;
+    
+}
+
+.third-section {
+    background: #fff;
+}
+
+.third-section .container {
+    justify-content: center;
+}
+
+.third-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-to-action h2 {
+    font-size: 40px;
+    color: #5B5956;
+}
+
+.call-to-action p {
+    color: #C3BCB8;
+}
+
+.call-to-action a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.17em;
+    text-decoration: none;
+    background: #974D1B;
+    padding: 1em 2em;
+    margin-top: 3em;
+}
+
+.fourth-section .content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 0.8em;
+}
+
+footer {
+    text-align: center;
+    background: #1B9772;
+}
+
+footer p {
+    padding: 4em;
+    font-size: 18px;
+    letter-spacing: 0.17em;
+    color: #56DBAE;
+}

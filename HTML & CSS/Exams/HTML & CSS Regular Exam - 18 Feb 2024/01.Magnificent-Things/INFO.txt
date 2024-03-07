@@ -1,0 +1,8 @@
+Display resolution: 1920 x 1080
+Scale: 100%
+
+Task 1 & Task 3;
+Browser: Google Chrome | Zoom - 90%
+
+Task 2:
+Dimensions: Responsive 500px
